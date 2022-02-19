@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hehe {
+  min-height: 100vh;
+  width: 85%;
+  background-color: black;
+  background-image: url(https://cdn.discordapp.com/attachments/944590091639209988/944590128096116736/cube.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  color: #fff;
+  padding: 0 8%;
+}
+
+.hehe h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hehe h3 {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.emoji {
+    height: 20px;
+    bottom: 50%;
+    transform: translateY(30%);
+}
+
+.emoji2 {
+    height: 20px;
+    bottom: 100%;
+    transform: translateY(30%);
+}
+
+
+audio {
+    width: 300px;
+    height: 54px;
+}
