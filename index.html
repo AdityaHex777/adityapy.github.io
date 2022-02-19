@@ -81,6 +81,16 @@
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+    var vAudio = document.getElementById("divAudio");
+    var hasInit = false;
+    function playMusic()
+    {
+      if(!hasInit)
+      {
+          hasInit = true;
+          vAudio.play();
+      }
+    }
     </script>
   </body>
 </html>
