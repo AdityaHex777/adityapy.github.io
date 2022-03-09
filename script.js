@@ -40,6 +40,12 @@ var TxtType = function(el, toRotate, period) {
     };
 
     window.onload = function() {
+        
+    };
+function play() {
+        var audio = document.getElementById("lol");
+        audio.play();
+        document.getElementById('txt').remove();
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -53,15 +59,5 @@ var TxtType = function(el, toRotate, period) {
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
-    };
-
-var vAudio = document.getElementById("divAudio");
-   var hasInit = false;
-   function playMusic()
-   {
-      if(!hasInit)
-      {
-          hasInit = true;
-          vAudio.play();
-      }
-   }
+        document.getElementById('lmao').remove();
+        }
